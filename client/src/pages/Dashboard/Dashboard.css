@@ -1,0 +1,126 @@
+.dashboard{
+    width: 100%;
+}
+
+.bread-crumbs{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+    color: rgba(51, 51, 51, 0.5);
+}
+
+.bread-crumbs.dark{
+    color: rgb(255, 255, 255, 0.4);
+}
+
+.dashboard > .container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.dashboard > .container > div{
+    padding: 10px;
+    width: 22rem;
+    height: 12rem;
+    border-radius: .5rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgb(255, 255, 255); */
+}
+
+.dashboard > .container > div.dark{
+    box-shadow: none;
+    background-color: rgba(153, 153, 153, 0.1);
+}
+
+.container-info{
+    display: flex;
+    gap: .7rem;
+    align-items: center;
+    /* color: rgb(240, 248, 255); */
+}
+
+.today-task{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.today-task > .task-head{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.task-data{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.task-details{
+    /* background-color: var(--primary-background-color-light); */
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 5px 0px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.task-details:hover{
+    transition: .5s ease-in-out;
+    transform: scale(1.01);
+}
+
+.task-details > .taskname{
+    width: 25%;
+    
+}
+
+.task-details > .venue{
+    width: 25%;
+}
+
+.task-details > .fromTime{
+    width: 12.5%;
+    
+}
+
+.task-details > .totalHours{
+    width: 12.5%;
+    
+}
+
+.task-details > .status{
+    width: 12.5%;
+    
+}
+
+.task-details > .icon{
+    width: 12.5%;
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+@media (prefers-color-scheme: dark){
+
+    .task-modal > .box{
+        background-color: var(--secondary-background-color-dark);
+        color:white;
+    }
+  }

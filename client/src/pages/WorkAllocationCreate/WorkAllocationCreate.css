@@ -1,0 +1,124 @@
+.input-sec{
+    width: 100%;
+    display: flex;
+    
+    gap: 30px;
+}
+
+.input-sec > .check-box{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-sec > .check-box > p{
+    font-size: large;
+}
+
+.button-done{
+    width: 120px;
+    color: #ffffff;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.button-done:hover{
+    background-color: transparent;
+    color:var(--primary-color);
+    transition: .4s;
+}
+
+.button-cancel{
+    width: 120px;
+    color: var(--primary-color);
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.button-cancel:hover{
+    transition: .4s;
+    transform: scale(1.1);
+}
+
+.button-reject{
+    width: 120px;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.button-reject:hover{
+    color: red;
+    background-color: transparent;
+    border: 1px solid red;
+    transition: .4s;
+}
+
+.custom-div{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.custom-div > div{
+    min-height: 57px;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    border-radius: 4px;
+    padding: 9px 17px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    background-color: transparent;
+    font-size: "16px";
+    overflow-y: auto;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.custom-div > div > p{
+    margin: 0;
+    line-height: 0px;
+}
+
+.custom-div > p{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 6px;
+    margin-left: 19px;
+}
+
+.allocation-create h2{
+    color: var(--primary-color);
+}
+
+@media (prefers-color-scheme: dark){
+    
+    
+    .custom-div > div{
+        border:1px solid rgba(255, 255, 255, 0.23);
+    }
+
+    .custom-div > div > p{
+        color: #ffffffb3;
+    }
+
+    .custom-div > p{
+        color: #ffffffb3;
+    }
+
+    .allocation-create h2{
+        color: var(--primary-color);
+    }
+}

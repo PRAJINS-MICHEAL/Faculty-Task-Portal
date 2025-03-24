@@ -1,0 +1,75 @@
+.sidebar{
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: var(--secondary-background-color-light);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sidebar.dark{
+    background-color: var(--primary-background-color-dark);
+}
+
+.sidebar > .date-time{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 10px;
+    border-right: solid 3px var(--primary-color);
+    background-color: rgba(240, 248, 255, 2);
+}
+.sidebar > .date-time.dark{
+    background-color: rgba(240, 248, 255, 0.05);
+}
+
+.sidebar > .date-time > h1{
+    font-weight: 300;
+    font-size:40px;
+    color: var(--primary-color);
+}
+
+.sidebar > .options > .option{
+    width: 100%;
+    height: 80px;
+    padding-left: 30px;
+    border-bottom: 1px solid rgb(204, 204, 204,0.2);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.sidebar > .options > .option:hover{
+    transition: .3s;
+    background-color: var(--primary-background-color-light);
+}
+
+.sidebar > .options > .option.active{
+    background-color: var(--primary-background-color-light);
+    border-right: 3px solid var(--primary-color);
+}
+
+.sidebar > .options > .option.dark{
+    border-bottom: 1px solid rgb(204, 204, 204,0.05);
+}
+.sidebar > .options > .option.dark:hover{
+    transition: .3s;
+    background-color: rgba(240, 248, 255, 0.05);
+}
+
+.sidebar > .options > .option.active.dark{
+    background-color: var(--secondary-background-color-dark);
+}
+
+.sidebar > .options > a{
+    color: black;
+}
+
+.sidebar > .options > a.dark{
+    color: white;
+}
+
+
+

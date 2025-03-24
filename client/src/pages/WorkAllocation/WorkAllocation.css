@@ -1,0 +1,56 @@
+.bread-crumbs{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+    color: rgba(51, 51, 51, 0.5);
+}
+
+.allocations{
+    width: 100%;
+}
+
+.allocations > .head >button{
+    color: #ffffff;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.allocations > .head >button:hover{
+    background-color: transparent;
+    color:var(--primary-color);
+    transition: .4s;
+}
+
+
+.allocations > .head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+
+.pagination{
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 5px 0px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    
+}
+
+
+
+@media (prefers-color-scheme: dark){
+    .bread-crumbs{
+        color: rgb(255, 255, 255, 0.4);
+    }
+}
