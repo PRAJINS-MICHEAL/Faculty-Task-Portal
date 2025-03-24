@@ -35,4 +35,10 @@ The Faculty Task Portal is a comprehensive system designed to efficiently assign
 
 This portal enhances task transparency, improves faculty workload efficiency, and streamlines task delegation in an organized manner.
 
+# Tech Stacks
+
+Front-end : React, Redux, Material UI
+Back-end  : Node.js, Express.js
+Database  : MySQL
+
 
