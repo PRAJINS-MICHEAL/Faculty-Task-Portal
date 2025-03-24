@@ -37,8 +37,8 @@ This portal enhances task transparency, improves faculty workload efficiency, an
 
 # Tech Stacks
 
-Front-end : React, Redux, Material UI
-Back-end  : Node.js, Express.js
-Database  : MySQL
+* Front-end : React, Redux, Material UI
+* Back-end  : Node.js, Express.js
+* Database  : MySQL
 
 
