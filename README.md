@@ -1,19 +1,38 @@
-# Faculty-Task-Portal
-Faculty Task Portal , especially designed for my college.
+# Faculty Task Portal
+A Centralized Task Management System for Faculty
 
 # Introduction
-Faculty Task Portal is a centralized managing system for assigning and analysing the daily tasks for a faculty. Here at this portal, a faculty can view his/her daily and upcoming day's task and plan accordingly. Vertical Heads can assign tasks to faculties with specific to needed department and skills.
+The Faculty Task Portal is a comprehensive system designed to efficiently assign, track, and manage faculty tasks within our college. This portal enables faculty members to view their daily and upcoming tasks, helping them plan their schedules effectively. Vertical Heads can assign tasks based on department-specific requirements and faculty expertise, ensuring optimal workload distribution.
 
-# Features
-1. Authendication - Google OAuth2
-2. Authorization - JWT Tokens
-3. Role Based Access Control
-4. User Dashboard
-5. Easy Task Assignment
-6. Admin Approval Features
-7. Task allocation based of total work hour of the faculty
-8. Checking Availability of a Faculty
-9. Ensures no tasks Overlaping
-10. Ensures no work Overloading
+# Key Features
+1. Authentication – Secure login using Google OAuth2
+
+2. Authorization – Role-based access control with JWT tokens
+
+3. User Roles & Access Control – Different access levels for faculty, Vertical Heads, and administrators
+
+4. Personalized User Dashboard – A centralized view of assigned tasks and schedules
+
+5. Effortless Task Assignment – Assign tasks seamlessly based on faculty expertise
+
+6. Admin Approval System – Task assignments require administrator validation (if needed)
+
+7. Intelligent Task Allocation:
+
+    * Based on faculty’s total working hours
+    
+    * Considering department and skill-specific requirements
+
+8. Faculty Availability Check – Ensures tasks are assigned to available faculty
+
+9. Conflict Prevention:
+
+    * Prevents overlapping tasks
+    
+    * Avoids excessive workload distribution
+
+10. Optimized Workload Management – Ensures balanced and fair task distribution
+
+This portal enhances task transparency, improves faculty workload efficiency, and streamlines task delegation in an organized manner.
 
 
